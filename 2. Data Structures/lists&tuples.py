@@ -38,11 +38,11 @@ L1 = L + ['pop', 10]
 print(L1)
 
 # TODO: add elements to the same list
-L.extend(['pop', 10])
+L.extend(['pop', 10])  # ? [...,'pop', 10]
 print(L)
 
 # TODO: add two elements like one element to the same list
-L.append(['rock', 'soft'])
+L.append(['rock', 'soft'])  # ? [..,['rock','soft']]
 print(L)
 
 # TODO: delete the first element of list
