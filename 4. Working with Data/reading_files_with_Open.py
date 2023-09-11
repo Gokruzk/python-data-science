@@ -1,6 +1,6 @@
 # Open files with open function
 
-# ? Create a file object {r: reading, w: writing}
+# ? Create a file object {r: reading, w: writing, a: append}
 File = open("./example.txt", "r")
 
 # TODO: print file name
